@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#B9F6CA"
+    tools:context=".SavedContact">
+
+    <ImageButton
+        android:id="@+id/ibReaction"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/rounded_button"
+        />
+
+    <ImageButton
+        android:id="@+id/ibDialer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"
+        android:src="@drawable/dialpad"
+        android:background="@drawable/rounded_button"
+        />
+
+    <ImageButton
+        android:id="@+id/ibBrowser"
+        android:src="@drawable/browser"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/rounded_button"
+        />
+
+    <ImageButton
+        android:id="@+id/ibMaps"
+        android:src="@drawable/maps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="170dp"
+        android:background="@drawable/rounded_button"
+        />
+
+    <Button
+
+        android:id="@+id/btnCC1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/btnText1"
+        android:textAllCaps="false"
+        android:textSize="40sp"
+        android:background="@color/colorAccent"
+        />
+</LinearLayout>

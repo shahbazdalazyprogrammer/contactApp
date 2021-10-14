@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ContactApp</string>
+    <string name="btnText1">Create Contact</string>
+    <string name="name_hint">Enter name</string>
+    <string name="phone_number_hint">Enter phone number</string>
+    <string name="web_address_hint">Enter web address</string>
+    <string name="home_address_hint">Enter home address</string>
+</resources>
